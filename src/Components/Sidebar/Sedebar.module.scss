@@ -1,0 +1,37 @@
+.SidebarContainer {
+  background-color: #0b2d41;
+  color: white;
+  margin-top: 60px;
+  border-top: 1px solid rgb(54, 53, 53);
+  padding: 10px;
+  hr {
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+  & .SidebarHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 7px;
+  }
+  & .SidebarInfo {
+    flex: 1;
+    h2 {
+      font-size: 18px;
+    }
+    h3 {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      font-size: 14px;
+    }
+  }
+  & .CreateIcon {
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 999px;
+    padding: 8px;
+    color: #0b2d41;
+  }
+}
+

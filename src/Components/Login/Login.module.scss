@@ -1,0 +1,21 @@
+.LoginContainer {
+  display: grid;
+  grid-template-rows: 100vh;
+  place-items: center;
+  background: #f8f8f8;
+}
+
+.LoginInnerContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  padding: 100px;
+  text-align: center;
+  background-color: white;
+  border-radius: 100px;
+  box-shadow: 7px 10px 15px 8px rgba(34, 60, 80, 0.15);
+  img {
+    width: 200px;
+    display: inline-block;
+  }
+}

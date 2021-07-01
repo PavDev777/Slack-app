@@ -1,0 +1,15 @@
+.ChatInputContainer {
+  display: grid;
+  justify-content: center;
+  padding: 20px;
+  form {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 20px;
+    input {
+      width: 35vw;
+    }
+  }
+
+
+}

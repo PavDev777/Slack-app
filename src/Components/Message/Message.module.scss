@@ -1,0 +1,29 @@
+.MessageContainer {
+  padding: 20px 100px;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  column-gap: 20px;
+  align-items: center;
+  &:hover {
+    svg {
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+  svg {
+    opacity: 0;
+  }
+  span {
+    font-size: 11px;
+  }
+}
+
+.Image {
+  img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    display: inline-block;
+    border-radius: 999px;
+  }
+}

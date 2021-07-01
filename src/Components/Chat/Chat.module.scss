@@ -1,0 +1,39 @@
+.ChatContainer {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto 1fr auto;
+  overflow-y: scroll;
+}
+
+.Header {
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+.HeaderLeft {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  column-gap: 5px;
+  h4 {
+    text-transform: lowercase;
+  }
+}
+
+.HeaderRight {
+  p{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    column-gap: 5px;
+    font-size: 14px;
+  }
+}
+
+.ChatMessages {
+  overflow-y: scroll;
+}

@@ -1,0 +1,79 @@
+.HeaderContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(11, 45, 65);
+}
+
+.HeaderLeft {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+
+  & .Exit {
+    cursor: pointer;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  & .Avatar {
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  & .TimeIcon {
+    margin-left: auto;
+    margin-right: 30px;
+  }
+}
+
+.HeaderSearch {
+  border-radius: 6px;
+  opacity: 1;
+  background-color: lighten(rgb(11, 45, 65), 15%);
+  text-align: center;
+  padding: 0 50px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  & .Search {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    flex: 1;
+    height: 30px;
+    &:focus {
+    }
+    &::placeholder {
+      color: white;
+    }
+  }
+
+  & .IconSearching {
+    cursor: pointer;
+    position: absolute;
+    left: 100px;
+    &:hover {
+      color: darken(white, 30%);
+    }
+  }
+}
+
+.HeaderRight {
+  justify-self: end;
+  & .HelpIcon {
+  }
+}

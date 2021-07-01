@@ -1,0 +1,17 @@
+.SelectChannelContainer {
+  display: grid;
+  height: 90vh;
+  place-content: center;
+  text-align: center;
+  row-gap: 50px;
+}
+
+.Image {
+  img {
+    height: 400px;
+    width: 500px;
+    border-radius: 30px;
+    display: inline-block;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  }
+}

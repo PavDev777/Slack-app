@@ -1,0 +1,23 @@
+.SidebarOptionContainer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 7px;
+  transition: background .4s ease-out;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+  &:hover {
+    background: green;
+  }
+  &:active {
+    background: darken(green, 15%);
+  }
+
+  &.active {
+    background: green;
+  }
+}
